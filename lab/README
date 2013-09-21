@@ -1,0 +1,18 @@
+Before starting please make sure to have the phpunit command working.
+
+ - Create the tests folder inside lab folder and outside shopping folder.
+ - Inside tests folder create a new folder called lab.
+ - Create a test case per each class in the shopping folder.
+ - Create the phpunit.xml file that will describe how phpunit will run this tests.
+    - Remember to configure the path to the tests folder.
+
+In order to complete this lab you should test the following:
+
+- Shop items can change their description.
+- Shop items can change their price.
+- Shop order can only add instances of Item class.
+- Shop order can add more than one item using the quantity parameter.
+- Shop order summary should be a string and should not be empty.
+- Shop order summary should include the correct total amount.
+- Shop order should include each item added with the correct quantity, price and subtotal.
+
